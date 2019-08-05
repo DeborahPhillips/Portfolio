@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta name="description" content="Deb Portfolio Website">
+    <meta name="author" content="Deb Philips">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects </title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
@@ -17,22 +20,63 @@
     <a href="Projects.html">Projects</a>
     <a href="Research.html">Research</a>
     <a href="Volunteerism.html">Volunteerism</a>
+    <a href="Contact.html">Contact Me</a>
   </div>
-    <div class="main-content">
-	<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-	    <br/>
-	   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRX8OlfYsfMoiLhWfl71wh5H6wdNyOr5vGIhLr1IJOm6T6P-PHTniIVsYE/embed?start=true&loop=true&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-	    <br/>
-	    <iframe src="https://docs.google.com/document/d/e/2PACX-1vR7E1ccruO90mGeacL4S1mVooAQTy-1hDzbRslJ97W9rG1WvDad6Jej0aau6U9LzEOQjTScIq_7PbTq/pub?embedded=true"></iframe>
-	    </br>
-    </div>
+    <div class="main-content right_of_menu">
+	
+<h1>Projects</h1>
+<p>Click to see the projects below.</p>
+
+<button class="accordion font_s">Research for MBA Program</button>
+<div class="panel">
+  <p class="Too_far_right">My team was asked to do research on behalf of the Master of Business Administration in the Jon Hunstman School
+of Business. This powerpoint is what we found about the program and the reseach that we created and what the data indicated.
+
+		</p>
+		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8EkDt6nvqVgptAttuPLim7hNPtdqj109Nzy9i07RGjm4mFVFGrHfBMHyn3J7xgg/embed?start=true&loop=true&delayms=5000" frameborder="0" width="85%" height="790px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	    </p>
+</div>
+
+<button class="accordion font_s">Edith Bowen Elementary Electricity Curriculum</button>
+<div class="panel">
+  <p class="Too_far_right">Our teach was asked develop curriculum for 5 th graders at Edith Bowen Elementary. The curriculum was how electricty works. We 
+created a whole lesson for the teacher, with diagrams, projects and test material.
+		</p>
+	    <iframe src="https://docs.google.com/document/d/e/2PACX-1vR7E1ccruO90mGeacL4S1mVooAQTy-1hDzbRslJ97W9rG1WvDad6Jej0aau6U9LzEOQjTScIq_7PbTq/pub?embedded=true" class="Right_size"></iframe>
+	    </br></p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>	    
+	   
     <footer>
   <p>Deborah Phillips 2019</p>
 </footer>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 
 </body>
 </html>

@@ -1,0 +1,190 @@
+
+/*DropDown*/
+
+.dropbtn {
+  background-color:#499299;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  width: 100vw;
+  font-size: 16px;
+  border: none;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  margin-left: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #41838a;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #41838a;}
+
+/*body*/
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #cfba76 ;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 60px;
+}
+
+/*Header*/
+
+.header{ 
+height: 33vh;
+width: 100vw;
+margin: 0px 0px 0px 0px; 
+}
+
+.Headerimage{
+    position: relative;
+    max-width: 100%;
+    width: 100vw;
+    height: 30vh;
+    padding: 0px;
+    margin: 0px 0px 0px 0px; 
+    top: 0; right: 0;
+}
+
+/*Main Content*/
+
+.main-content{
+  background-color: #cfba76 ;
+  width: 98vw;
+  margin:0px;
+  padding:0px;
+}
+/*Me Page*/
+
+.me{
+	
+	height: 30vh;
+	margin: 5px;
+	margin-left: 200px;
+		
+}
+
+.quote{
+	margin-left: 200px;
+	font-family: cursive;
+	font-size: 18px;
+}
+.quote_author{
+	margin-left: 220px;
+	font-family: cursive;
+}
+
+article {
+  position: absolute;
+  left: 40%;
+  top: 14%; 
+  float: left;
+  font-size: 20px;
+  padding: 20px;
+  width: 50%;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+
+
+/*Footer*/
+
+footer{
+ position: fixed;
+ bottom: 0;
+ background-color: Black;
+ color: #cfba76;
+ text-align: center;
+ width: 100vw;
+padding-right: 100%;
+ height: 7vh;
+
+}
+
+.rounded{
+	border-radius: 10%;
+}
+
+/*Accordion*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.right_of_menu{
+	
+	margin-left: 200px;
+
+}
+
+.Puzzle_right{
+  margin-left:200px;}
+
+.Frame_me{
+  border:10px solid;}
+
+.Right_size{
+  width:85vw;
+height:70vh;}
+
+.Right_Size{
+ width: 65vw;
+ heigth: 98vh;}
+
+.Too_far_right{
+  width:82vw;}
+.right_float{
+	display:inline;
+}
+
+legend form fieldset{
+	padding-right:0px;
+}
+
+.font_s{
+font-size: 20px;
+width:80vw;
+}

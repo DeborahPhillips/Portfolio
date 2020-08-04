@@ -7,7 +7,7 @@
   text-align: left;
   padding: 16px;
   width: 100vw;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   
 }
@@ -45,7 +45,7 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: #F7F5EA ;
+    background-color: #E2E2E2 ;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     padding-bottom: 60px;
@@ -72,10 +72,12 @@ margin: 0px 0px 0px 0px;
 /*Main Content*/
 
 .main-content{
-  background-color: #E2E2E2 ;
-  width: 98vw;
+  background-color: #ede9df ;
+  width: 88vw;
   margin:0px;
-  padding:0px;
+  padding:8px;
+  border-radius:5px;
+  box-shadow: 2px 2px #888888;
 }
 /*Me Page*/
 
@@ -119,8 +121,9 @@ footer{
  color: #cfba76;
  text-align: center;
  width: 100vw;
-padding-right: 100%;
- height: 7vh;
+ padding-right: 100%;
+ height: 5vh;
+ opacity: 0.75;
 
 }
 

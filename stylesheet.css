@@ -49,6 +49,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     padding-bottom: 60px;
+    overflow-x: hidden;
 }
 
 /*Header*/
@@ -77,6 +78,7 @@ margin: 0px 0px 0px 0px;
   margin:0px;
   padding:8px;
   border-radius:5px;
+  opacity: 0.97;
   box-shadow: 2px 2px #888888;
 }
 
@@ -129,7 +131,9 @@ footer{
  text-align: center;
  width: 100vw;
  padding-right: 100%;
- height: 5vh;
+ padding-bottom: 4px;
+ margin-bottom:0px;
+ height: 4vh;
  opacity: 0.75;
 
 }
@@ -148,7 +152,7 @@ footer{
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   transition: 0.4s;
 }
 
